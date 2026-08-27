@@ -1,5 +1,6 @@
 require('dotenv').config()
-const express = require('express');
+const express = require('express');  // common js
+//import express from "express"   // module js
 const app = express()
 const port = 4000
 
@@ -40,7 +41,7 @@ const githubData = {
 }
 
 app.get('/', (req, res) => {
-         res.send('Hello World!')
+        res.send('Hello World!')
 })
 
 app.get("/twitter", (req, res) => {
