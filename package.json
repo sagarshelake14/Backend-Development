@@ -1,0 +1,28 @@
+{
+  "name": "codewithbackend",
+  "version": "1.0.0",
+  "description": "a basic app and deploy",
+  "keywords": [
+    "node",
+    "code"
+  ],
+  "homepage": "https://github.com/sagarshelake14/Backend-Development#readme",
+  "bugs": {
+    "url": "https://github.com/sagarshelake14/Backend-Development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarshelake14/Backend-Development.git"
+  },
+  "license": "ISC",
+  "author": "sagar shelake",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
